@@ -1,0 +1,13 @@
+@echo off
+echo AutoHotKey Scripts...
+cd \portableApps\Misc\AutoHotkey\
+echo 	* AutoCorrect...
+@start AutoHotkey.exe "\portableApps\Misc\AHKScripts\AutoCorrect.ahk"
+
+echo 	* Work...
+@start AutoHotkey.exe  "\portableApps\Misc\AHKScripts\work.ahk"
+
+echo 	* Mouse Toggler...
+@start AutoHotkey.exe  "\portableApps\Misc\AHKScripts\ToggleMouseSpeed.ahk"
+
+pause;

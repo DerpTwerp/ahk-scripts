@@ -108,6 +108,7 @@ Launch_Media::
 Browser_Forward::
 Browser_Back::
 Browser_Home::
+Browser_Refresh::
 CapsLock::
 return
 
@@ -178,7 +179,7 @@ return
 ^+#Return:: Suspend ; Toggle Suspend
 
 ; Remap Win7's #1, #2, & #3 back to my WinAmp Keys.
-#1:: send #{tab} ; Show / Hide Winamp
+#1:: send #^+{tab} ; Show / Hide Winamp
 #2:: send #`` ; Show the Toaster Notification
 #3:: send {Media_Play_Pause} ; Play/Pause
 #4:: send {Media_Prev} ; Play/Pause
